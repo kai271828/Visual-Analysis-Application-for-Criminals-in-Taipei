@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<title>DataVis Project</title>
+</head>
+<body>
+	<div style="text-align: center;font-size: 60px;"><br>臺北市特定犯罪資料視覺化</div>
+	<div id="case" style="font-size: 18px;position: absolute; left:50px">
+		請選擇年份
+		<select id="selectYearButton" style="height: 30px;width: 50px;"></select>
+	</div>
+	<div id="case" style="position: absolute; left:820px; top: 180px">
+		調整案件類型
+		<select id="selectCaseButton"></select>
+	</div>
+	
+	<svg width="2048" height="2048">
+		
+		<g id="heatmapCP">
+		</g>
+
+		<g id="heatmapDP">
+		</g>
+
+		<g id="barchart">
+		</g>
+
+		<g id="linechart">
+		</g>
+
+		<g id="map">
+		</g>
+	</svg>
+
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
