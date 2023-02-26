@@ -14,4 +14,4 @@ The Taipei Crime Visualization Tool includes the following features:
 https://data.taipei/dataset?topic=%E6%B2%BB%E5%AE%89
 
 ## Usage
-To use this Tool, use local server to open the main.js file. The tool is free to use and requires no installation or setup.
+To use this Tool, use local server to open the index.html file or the live sever extension in VSCode. The tool is free to use and requires no installation or setup.
